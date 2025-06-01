@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>昭析计算物理</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        .n1{
+            border:none;
+            outline:none;
+            font-size:20px;
+        }
+        
+
+        .send {
+            color:gray;
+            font-size:10px;
+            border:1px dashed grey;
+            width:1000px;
+            height:200px;
+            border-radius:20px;
+            margin:10px auto;
+        }
+        .click{
+            border:1px solid black;
+            border-radius:20px;
+            margin:10px 100px 10px 1200px;
+            width:70px;
+            height:30px;
+
+        }
+        h1{
+            text-align:center;
+            margin:200px auto 20px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <h1>你好，有任何问题都随时问我呀</h1>
+    <form action="javascript:alert('收到你的问题！让我思考一下~')">
+        <li style="list-style-type:none;" class="send"><input name='question' type="text" placeholder="点击右下角的图标~" class="n1" required></form></li>
+        <xu ><input class="click" type="submit" value="发送"></xu>
+        
+    </form>
+    <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.10/libs/cn/index.js"></script>
+     <script> new CozeWebSDK.WebChatClient({ config: { bot_id: '7493148313936691215', }, componentProps: { title: '昭析计算物理', }, auth: { type: 'token', token: 'pat_3YuyBJ4BQAFM8pPxpZTlodxXvB0epdYMxcMHEZ3GcsYPUBzz3EFTXFpUk0ajHrwq', onRefreshToken: function () { return 'pat_3YuyBJ4BQAFM8pPxpZTlodxXvB0epdYMxcMHEZ3GcsYPUBzz3EFTXFpUk0ajHrwq' } } }); </script>
+
+</body>
+</html>
